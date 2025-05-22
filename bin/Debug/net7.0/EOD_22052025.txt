@@ -1,0 +1,10 @@
+-----Transaction Listesi-----
+Kullanıcı	Eski Bakiye	Yeni Bakiye	İşlem Tipi	İşlem Tarihi
+emine 	 0 	 80000 	 ParaYatirma 	 22.05.2025 09:25:17
+emine 	 80000 	 25000 	 ParaCekme 	 22.05.2025 09:25:23
+emine 	 25000 	 25000 	 BakiyeSorgulama 	 22.05.2025 09:25:25
+emine 	 25000 	 10000 	 OdemeYapma 	 22.05.2025 09:25:34
+emine 	 10000 	 10000 	 BakiyeSorgulama 	 22.05.2025 09:25:35
+-----Fraud Listesi-----
+Kullanıcı	Fraud Tipi	Fraud Açıklaması	İşlem Tarihi
+emine 	 YuksekMiktardaParaCekme 	 50000 den fazla para çekildi - Çekilen tutar: 55000 	 22.05.2025 09:25:23

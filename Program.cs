@@ -32,7 +32,7 @@
                     User user = userManager.Find(username);
                     if (user != null)
                     {
-                        Console.WriteLine("Şifrenizi giriniz: ");
+                        Console.Write("Şifrenizi giriniz: ");
                         string password = Console.ReadLine();
                         User userLogin = userManager.Login(username, password);
                         string key = "";
